@@ -5,7 +5,6 @@ This is a responsive landing page designed for students interested in studying M
 ✔ Lead Form with Validation (JavaScript & PHP)
 ✔ Google Analytics & Facebook Pixel Integration
 ✔ Fast Loading & Performance Optimization
-
 1️1 Clone the Repository
 git clone https://github.com/your-username/study-mbbs-abroad.git
 cd study-mbbs-abroad
