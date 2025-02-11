@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study MBBS Abroad | Apply Now</title>
+    <meta name="description" content="Apply for MBBS abroad in top universities with affordable fees.">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <!-- SEO & Tracking -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXX-Y');
+    </script>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Study MBBS Abroad</h1>
+            <p>Affordable, Globally Recognized Medical Degrees</p>
+            <a href="#lead-form" class="btn">Apply Now</a>
+        </div>
+    </header>
+
+    <!-- Why Study MBBS Abroad -->
+    <section class="why-study">
+        <h2>Why Study MBBS Abroad?</h2>
+        <ul>
+            <li>Affordable Tuition Fees</li>
+            <li>Globally Recognized Degrees</li>
+            <li>Modern Facilities & Clinical Exposure</li>
+            <li>English-Taught Programs</li>
+        </ul>
+    </section>
+
+    <!-- Top Countries -->
+    <section class="countries">
+        <h2>Top MBBS Destinations</h2>
+        <div class="country-list">
+            <div class="country">🇷🇺 Russia</div>
+            <div class="country">🇺🇿 Uzbekistan</div>
+            <div class="country">🇰🇿 Kazakhstan</div>
+            <div class="country">🇵🇭 Philippines</div>
+            <div class="country">🇬🇪 Georgia</div>
+            <div class="country">🇰🇬 Kyrgyzstan</div>
+            <div class="country">🇪🇬 Egypt</div>
+        </div>
+    </section>
+
+    <!-- Admission Process -->
+    <section class="admission">
+        <h2>Admission Process</h2>
+        <ol>
+            <li>Choose Your Country & University</li>
+            <li>Submit Required Documents</li>
+            <li>Receive Admission Confirmation</li>
+            <li>Apply for Student Visa</li>
+            <li>Fly Abroad & Start Studying</li>
+        </ol>
+    </section>
+
+    <!-- Lead Form -->
+    <section id="lead-form">
+        <h2>Get Free Consultation</h2>
+        <form id="applyForm" action="form-handler.php" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <select name="country">
+                <option value="" disabled selected>Preferred Country</option>
+                <option value="Russia">Russia</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="Egypt">Egypt</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
